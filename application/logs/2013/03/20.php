@@ -1,0 +1,87 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-03-20 08:58:06 --- CRITICAL: Kohana_Exception [ 0 ]: The action property does not exist in the Model_Wall class ~ MODPATH\orm\classes\Kohana\ORM.php [ 757 ] in Z:\home\localhost\subdomain\modules\orm\classes\Kohana\ORM.php:699
+2013-03-20 08:58:06 --- DEBUG: #0 Z:\home\localhost\subdomain\modules\orm\classes\Kohana\ORM.php(699): Kohana_ORM->set('action', '???????????????...')
+#1 Z:\home\localhost\subdomain\application\classes\Model\Wall.php(10): Kohana_ORM->__set('action', '???????????????...')
+#2 Z:\home\localhost\subdomain\application\classes\Controller\Ajax.php(8): Model_Wall->saveAction('???????????????...', '08:58 20-03-13', '22')
+#3 Z:\home\localhost\subdomain\application\classes\Controller\Ajax.php(57): Controller_Ajax->goLog1('???????????????...', '08:58 20-03-13', '22')
+#4 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_SendAns()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\subdomain\modules\orm\classes\Kohana\ORM.php:699
+2013-03-20 08:58:14 --- CRITICAL: Kohana_Exception [ 0 ]: The action property does not exist in the Model_Wall class ~ MODPATH\orm\classes\Kohana\ORM.php [ 757 ] in Z:\home\localhost\subdomain\modules\orm\classes\Kohana\ORM.php:699
+2013-03-20 08:58:14 --- DEBUG: #0 Z:\home\localhost\subdomain\modules\orm\classes\Kohana\ORM.php(699): Kohana_ORM->set('action', '???????????????...')
+#1 Z:\home\localhost\subdomain\application\classes\Model\Wall.php(10): Kohana_ORM->__set('action', '???????????????...')
+#2 Z:\home\localhost\subdomain\application\classes\Controller\Ajax.php(8): Model_Wall->saveAction('???????????????...', '08:58 20-03-13', '22')
+#3 Z:\home\localhost\subdomain\application\classes\Controller\Ajax.php(57): Controller_Ajax->goLog1('???????????????...', '08:58 20-03-13', '22')
+#4 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_SendAns()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\subdomain\modules\orm\classes\Kohana\ORM.php:699
+2013-03-20 09:06:44 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 83 ] in Z:\home\localhost\subdomain\application\classes\Model\Item.php:83
+2013-03-20 09:06:44 --- DEBUG: #0 Z:\home\localhost\subdomain\application\classes\Model\Item.php(83): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 83, Array)
+#1 Z:\home\localhost\subdomain\application\classes\Controller\Ajax.php(140): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\localhost\subdomain\application\classes\Model\Item.php:83
+2013-03-20 09:19:32 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: id ~ APPPATH\classes\Controller\session.php [ 92 ] in Z:\home\localhost\subdomain\application\classes\Controller\session.php:92
+2013-03-20 09:19:32 --- DEBUG: #0 Z:\home\localhost\subdomain\application\classes\Controller\session.php(92): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 92, Array)
+#1 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(84): Controller_Session->action_showsession()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Session))
+#4 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\subdomain\application\classes\Controller\session.php:92
+2013-03-20 09:27:08 --- CRITICAL: ErrorException [ 8 ]: Undefined offset: 1 ~ APPPATH\views\vsession.php [ 22 ] in Z:\home\localhost\subdomain\application\views\vsession.php:22
+2013-03-20 09:27:08 --- DEBUG: #0 Z:\home\localhost\subdomain\application\views\vsession.php(22): Kohana_Core::error_handler(8, 'Undefined offse...', 'Z:\home\localho...', 22, Array)
+#1 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(61): include('Z:\home\localho...')
+#2 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\localhost\subdomain\application\views\main-group.php(55): Kohana_View->__toString()
+#5 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(61): include('Z:\home\localho...')
+#6 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\subdomain\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Session))
+#11 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\subdomain\application\views\vsession.php:22
+2013-03-20 09:27:25 --- CRITICAL: ErrorException [ 8 ]: Undefined offset: 1 ~ APPPATH\views\vsession.php [ 22 ] in Z:\home\localhost\subdomain\application\views\vsession.php:22
+2013-03-20 09:27:25 --- DEBUG: #0 Z:\home\localhost\subdomain\application\views\vsession.php(22): Kohana_Core::error_handler(8, 'Undefined offse...', 'Z:\home\localho...', 22, Array)
+#1 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(61): include('Z:\home\localho...')
+#2 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\localhost\subdomain\application\views\main-group.php(55): Kohana_View->__toString()
+#5 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(61): include('Z:\home\localho...')
+#6 Z:\home\localhost\subdomain\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\localho...', Array)
+#7 Z:\home\localhost\subdomain\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Session))
+#11 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#14 {main} in Z:\home\localhost\subdomain\application\views\vsession.php:22
+2013-03-20 09:35:28 --- CRITICAL: ErrorException [ 8 ]: Undefined offset: 0 ~ APPPATH\classes\Model\Msession.php [ 110 ] in Z:\home\localhost\subdomain\application\classes\Model\Msession.php:110
+2013-03-20 09:35:28 --- DEBUG: #0 Z:\home\localhost\subdomain\application\classes\Model\Msession.php(110): Kohana_Core::error_handler(8, 'Undefined offse...', 'Z:\home\localho...', 110, Array)
+#1 Z:\home\localhost\subdomain\application\classes\Controller\session.php(29): Model_Msession->getQuest(NULL)
+#2 Z:\home\localhost\subdomain\system\classes\Kohana\Controller.php(84): Controller_Session->action_answer()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Session))
+#5 Z:\home\localhost\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\localhost\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\localhost\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\localhost\subdomain\application\classes\Model\Msession.php:110

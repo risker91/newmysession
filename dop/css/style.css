@@ -1,0 +1,237 @@
+.logo
+{
+float:left;
+
+width:219px;
+height:102px;
+background-image:url("img/logo.gif");
+}
+
+.menu {
+
+margin-left:300px;
+}
+
+#page{
+margin-left:auto;
+margin-right:auto;
+width:1000px;
+height:100%;
+}
+
+.head{
+
+width:1024px;
+margin-top:30px;
+margin-left:1px;
+height:120px;
+}
+
+
+
+
+
+
+
+#iconbar li			{
+	float:left;
+	position:relative;
+	margin-right:20px;
+	background:#E8E8F9;
+	border: 1px dashed #ffc0ff;
+	overflow:hidden;
+	text-align:left;
+}
+#iconbar a {
+	text-decoration: none;
+	outline: none;
+	color:#d00000;
+	display: block;
+	width: 24px;
+	padding: 10px;
+	cursor:pointer;
+}
+#iconbar span	{
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	display: none;
+	line-height:110%;
+	color:#409BED;
+	padding-left: 10px;
+}
+
+
+#example{
+	
+	
+	
+	
+	
+	
+}
+#example p{
+	margin-top:inherit;
+	display: none;
+	
+	
+}
+#example p:first-child{
+	display: block;
+}
+
+
+.midle{
+position: relative;
+float:left;
+width:100%;
+
+
+}
+
+.midle #news{
+border-right:1px black;
+float:inherit;
+width:450px;
+height:200px;
+
+
+}
+.midle #know{
+float:inherit;
+width:450px;
+height:200px;
+
+}
+
+.modul{
+position:relative;
+
+float:none;
+
+}
+
+ul.semestr {
+margin: 0;
+padding:0;
+text-align: center; /*Центрируем содержимое списка ul*/
+}
+ul.semestr  li{
+float: left;
+list-style: none;
+width: 150px; /*Задаем ширину непосредственно каждого пункта меню*/
+}
+ul.semestr  li a {
+font: 14px/18px Verdana, Arial, sans-serif; /*10px - размер шрифта, 18px - высота 
+текстовой строки со ссылкой*/
+text-decoration: none; /*Убираем подчеркивание у ссылок, расположенных внутри пункта меню*/
+color: #444444; /*Цвет текста ссылки*/
+}
+
+#num1{
+display:none;
+}
+
+
+.ohh{
+    
+    float:left;
+    width:400px;
+    margin-left: 50px;
+}
+
+
+.right {
+    text-align:center;
+	margin-top: 130px;
+	right:0px;
+	width: 150px;
+        position: absolute;
+}
+
+.right1 {
+        padding-left: 15px;
+	width: 150px;
+        text-align: left;
+      
+}
+#fixed {
+	background: #CCC;
+	padding: 10px;
+}
+
+
+
+ul.update { list-style:none;font-size:1.1em; margin-top:10px }
+ul.update li{ height:30px; border-bottom:#dedede solid 1px; text-align:left;}
+ul.update li:first-child{ border-top:#dedede solid 1px; height:30px; text-align:left; }
+#flash { margin-top:20px; text-align:left; }
+#searchresults { text-align:left; margin-top:20px; display:none; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#000; }
+.word { font-weight:bold; color:#000000; }
+#search_box { padding:4px; border:solid 1px #666666; width:300px; height:30px; font-size:18px;-moz-border-radius: 6px;-webkit-border-radius: 6px; }
+.search_button { border:#000000 solid 1px; padding: 6px; color:#000; font-weight:bold; font-size:16px;-moz-border-radius: 6px;-webkit-border-radius: 6px; }
+.found { font-weight: bold; font-style: italic; color: #ff0000; }
+h2 { margin-right: 70px; }
+
+
+.test-risk{    width:90px;float: left;margin-left:35px;}
+.dropdown 
+{
+
+}
+.submenu
+{
+	background: #fff;
+	position: absolute;
+	top: -12px;
+	left: -20px;
+	z-index: 100;
+	width: 135px;
+	display: none;
+	margin-left: 10px;
+	padding: 40px 0 5px;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a 
+{
+	color: #555555;
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	padding: 6px 15px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+	background:#155FB0;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.menu
+{
+	
+	font-size: 20px;
+       
+	color: #555;
+	position: relative;
+	z-index: 110;
+	display: block;
+	
+	height: 28px;
+	width: 121px;
+	margin: -11px 0 0 -10px;
+	text-decoration: none;	
+	cursor:pointer;
+}
+.root
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-size: 11px;
+	padding: 11px 0 0 0px;
+	
+}

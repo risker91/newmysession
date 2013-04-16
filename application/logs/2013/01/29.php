@@ -1,0 +1,557 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-01-29 08:50:36 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 08:50:36 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(122): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 08:50:41 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 08:50:41 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(122): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 09:04:43 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:43 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:44 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:44 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:45 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:46 --- CRITICAL: Kohana_Exception [ 0 ]: The type property does not exist in the Model_File class ~ MODPATH\orm\classes\Kohana\ORM.php [ 684 ] in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:04:46 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php(600): Kohana_ORM->get('type')
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(106): Kohana_ORM->__get('type')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\modules\orm\classes\Kohana\ORM.php:600
+2013-01-29 09:13:20 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 09:13:20 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 10:04:08 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 10:04:08 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 10:06:56 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 10:06:56 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 10:50:25 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 10:50:25 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 15:19:56 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 15:19:56 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 15:20:22 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::type() must be an array, null given ~ SYSPATH\classes\Kohana\Upload.php [ 146 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:146
+2013-01-29 15:20:22 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(146): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 146, Array)
+#1 [internal function]: Kohana_Upload::type(NULL, Array)
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(26): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:146
+2013-01-29 15:20:57 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::type() must be an array, null given ~ SYSPATH\classes\Kohana\Upload.php [ 146 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:146
+2013-01-29 15:20:57 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(146): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 146, Array)
+#1 [internal function]: Kohana_Upload::type(NULL, Array)
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(26): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:146
+2013-01-29 15:26:53 --- CRITICAL: ErrorException [ 8 ]: Undefined index: file ~ APPPATH\classes\Controller\Files.php [ 31 ] in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:31
+2013-01-29 15:26:53 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(31): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\test1.r...', 31, Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:31
+2013-01-29 15:27:06 --- CRITICAL: ErrorException [ 8 ]: Undefined index: filelename ~ APPPATH\classes\Controller\Files.php [ 31 ] in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:31
+2013-01-29 15:27:06 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(31): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\test1.r...', 31, Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:31
+2013-01-29 15:27:20 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::save() must be an array, string given, called in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php on line 31 and defined ~ SYSPATH\classes\Kohana\Upload.php [ 52 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:52
+2013-01-29 15:27:20 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(52): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 52, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(31): Kohana_Upload::save('jobArray')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:52
+2013-01-29 15:28:51 --- CRITICAL: Kohana_Exception [ 0 ]: Directory upload must be writable ~ SYSPATH\classes\Kohana\Upload.php [ 80 ] in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:31
+2013-01-29 15:28:51 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(31): Kohana_Upload::save(Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:31
+2013-01-29 16:25:32 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::size() must be an array, string given ~ SYSPATH\classes\Kohana\Upload.php [ 169 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:25:32 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(169): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 169, Array)
+#1 [internal function]: Kohana_Upload::size('1M')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(40): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:34:48 --- CRITICAL: ErrorException [ 4096 ]: Argument 3 passed to Kohana_Validation::rule() must be an array, string given, called in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php on line 37 and defined ~ SYSPATH\classes\Kohana\Validation.php [ 211 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php:211
+2013-01-29 16:34:48 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(211): Kohana_Core::error_handler(4096, 'Argument 3 pass...', 'Z:\home\test1.r...', 211, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(37): Kohana_Validation->rule('filename', 'Upload::size', '1M')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php:211
+2013-01-29 16:35:44 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::size() must be an array, string given ~ SYSPATH\classes\Kohana\Upload.php [ 169 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:35:44 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(169): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 169, Array)
+#1 [internal function]: Kohana_Upload::size('1M')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(39): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:36:00 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::size() must be an array, string given ~ SYSPATH\classes\Kohana\Upload.php [ 169 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:36:00 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(169): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 169, Array)
+#1 [internal function]: Kohana_Upload::size('1M', '2M')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(39): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:37:55 --- CRITICAL: ErrorException [ 2 ]: Missing argument 2 for Kohana_Upload::size() ~ SYSPATH\classes\Kohana\Upload.php [ 169 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:37:55 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(169): Kohana_Core::error_handler(2, 'Missing argumen...', 'Z:\home\test1.r...', 169, Array)
+#1 [internal function]: Kohana_Upload::size(Array)
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(39): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:38:36 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::size() must be an array, string given ~ SYSPATH\classes\Kohana\Upload.php [ 169 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:38:36 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(169): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 169, Array)
+#1 [internal function]: Kohana_Upload::size('1M')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Validation.php(410): ReflectionMethod->invokeArgs(NULL, Array)
+#3 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(39): Kohana_Validation->check()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#10 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:169
+2013-01-29 16:46:27 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 16:46:27 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 17:21:15 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 17:21:15 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 17:21:16 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 17:21:16 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 19:28:01 --- CRITICAL: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Upload::save() must be an array, string given, called in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php on line 44 and defined ~ SYSPATH\classes\Kohana\Upload.php [ 52 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:52
+2013-01-29 19:28:01 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(52): Kohana_Core::error_handler(4096, 'Argument 1 pass...', 'Z:\home\test1.r...', 52, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(44): Kohana_Upload::save('lol')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php:52
+2013-01-29 19:29:54 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: types ~ APPPATH\classes\Controller\Files.php [ 37 ] in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:37
+2013-01-29 19:29:54 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(37): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 37, Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:37
+2013-01-29 19:30:30 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: size_ ~ APPPATH\classes\Controller\Files.php [ 38 ] in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:38
+2013-01-29 19:30:30 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(38): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 38, Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:38
+2013-01-29 19:37:45 --- CRITICAL: ErrorException [ 8 ]: Undefined index: type ~ APPPATH\classes\Controller\Files.php [ 45 ] in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:45
+2013-01-29 19:37:45 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(45): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\test1.r...', 45, Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#7 {main} in Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php:45
+2013-01-29 19:39:37 --- CRITICAL: ErrorException [ 2 ]: move_uploaded_file(Z:\home\test1.ru\subdomain\uploads\lesson\1088437873image/jpeg) [function.move-uploaded-file]: failed to open stream: No such file or directory ~ SYSPATH\classes\Kohana\Upload.php [ 87 ] in :
+2013-01-29 19:39:37 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'move_uploaded_f...', 'Z:\home\test1.r...', 87, Array)
+#1 Z:\home\test1.ru\subdomain\system\classes\Kohana\Upload.php(87): move_uploaded_file('Z:\tmp\php2873....', 'Z:\home\test1.r...')
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(46): Kohana_Upload::save(Array, '1088437873image...')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in :
+2013-01-29 19:45:08 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: fileName ~ APPPATH\classes\Model\File.php [ 14 ] in Z:\home\test1.ru\subdomain\application\classes\Model\File.php:14
+2013-01-29 19:45:08 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(14): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 14, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(45): Model_File->GetExp(Array)
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\File.php:14
+2013-01-29 19:45:38 --- CRITICAL: ErrorException [ 2 ]: strrchr() expects parameter 1 to be string, array given ~ APPPATH\classes\Model\File.php [ 14 ] in :
+2013-01-29 19:45:38 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'strrchr() expec...', 'Z:\home\test1.r...', 14, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(14): strrchr(Array, '.')
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(45): Model_File->getExp(Array)
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in :
+2013-01-29 19:46:02 --- CRITICAL: ErrorException [ 2 ]: explode() expects parameter 2 to be string, array given ~ APPPATH\classes\Model\File.php [ 14 ] in :
+2013-01-29 19:46:02 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'explode() expec...', 'Z:\home\test1.r...', 14, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(14): explode('.', Array)
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(45): Model_File->getExp(Array)
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in :
+2013-01-29 19:46:34 --- CRITICAL: ErrorException [ 2048 ]: Only variables should be passed by reference ~ APPPATH\classes\Model\File.php [ 14 ] in Z:\home\test1.ru\subdomain\application\classes\Model\File.php:14
+2013-01-29 19:46:34 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(14): Kohana_Core::error_handler(2048, 'Only variables ...', 'Z:\home\test1.r...', 14, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Files.php(45): Model_File->getExp('Z:\tmp\php85F3....')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\File.php:14
+2013-01-29 20:11:55 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:11:55 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:18:39 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:18:39 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:26:00 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13'' at line 1 [ SELECT `files,id` JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13' ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:00 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `files,i...', false, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(13): Kohana_Database_Query->execute()
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(98): Model_File->getFiles('13')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:01 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13'' at line 1 [ SELECT `files,id` JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13' ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:01 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `files,i...', false, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(13): Kohana_Database_Query->execute()
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(98): Model_File->getFiles('13')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:02 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '14'' at line 1 [ SELECT `files,id` JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '14' ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:02 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `files,i...', false, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(13): Kohana_Database_Query->execute()
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(98): Model_File->getFiles('14')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:04 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13'' at line 1 [ SELECT `files,id` JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13' ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:04 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `files,i...', false, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(13): Kohana_Database_Query->execute()
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(98): Model_File->getFiles('13')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:36 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13'' at line 1 [ SELECT `files`.`title` JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '13' ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:36 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `files`....', false, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(13): Kohana_Database_Query->execute()
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(98): Model_File->getFiles('13')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:37 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '14'' at line 1 [ SELECT `files`.`title` JOIN `items` ON (`files`.`item_id` `items`.`id`) WHERE `files`.`item_id` = '14' ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:26:37 --- DEBUG: #0 Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(1, 'SELECT `files`....', false, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Model\File.php(13): Kohana_Database_Query->execute()
+#2 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(98): Model_File->getFiles('14')
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getFiles()
+#4 [internal function]: Kohana_Controller->execute()
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#8 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#9 {main} in Z:\home\test1.ru\subdomain\modules\database\classes\Kohana\Database\Query.php:251
+2013-01-29 20:29:23 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:29:23 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:30:11 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:30:11 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:50:13 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:50:13 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 20:50:30 --- CRITICAL: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ APPPATH\classes\Controller\Files.php [ 48 ] in Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php:84
+2013-01-29 20:50:30 --- DEBUG: #0 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Files->action_upload()
+#1 [internal function]: Kohana_Controller->execute()
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Files))
+#3 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#5 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#6 {main} in Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php:84
+2013-01-29 21:00:56 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:00:56 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:11:17 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:11:17 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:11:35 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:11:35 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:12:53 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: one ~ APPPATH\classes\Model\Item.php [ 84 ] in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
+2013-01-29 21:12:53 --- DEBUG: #0 Z:\home\test1.ru\subdomain\application\classes\Model\Item.php(84): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\test1.r...', 84, Array)
+#1 Z:\home\test1.ru\subdomain\application\classes\Controller\Ajax.php(125): Model_Item->getItemsCourse('22', '')
+#2 Z:\home\test1.ru\subdomain\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getItems2()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Ajax))
+#5 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\test1.ru\subdomain\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\test1.ru\subdomain\index.php(122): Kohana_Request->execute()
+#8 {main} in Z:\home\test1.ru\subdomain\application\classes\Model\Item.php:84
