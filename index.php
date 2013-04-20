@@ -126,4 +126,9 @@ else
 		->body();
 }
 
+print '<br><br><br><br>';
 echo 'страница сгенерирована за '.$time = microtime(true) - $start;
+print '<br>';
+print Session::instance()->get('uid');
+
+

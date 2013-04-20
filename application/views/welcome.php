@@ -61,7 +61,7 @@
           <ul class="nav  nav-pills nav-stacked"></ul>
           <div class="well">
             <p>
-              <b>Подсказка:</b>зарегистроваться может только админ группы.</p>
+     <?=$auth?>
           </div>
         </div>
             <?=$con?>

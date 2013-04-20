@@ -51,7 +51,7 @@ $(document).ready(function()
 
 </script>
 
- <div id="mygroup1"style="display: none"><?=$id_group?></div>
+
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -64,12 +64,12 @@ $(document).ready(function()
             <ul class="nav ">
             
                 
-                <li><a class="menu"><?=$abbr?></a> </li>
-                <li ><a href="/group<?=$id_group?>/">Home</a></li>
-                <li><a href="/session/">Session</a></li>
-		<li><a href="/group">Group</a></li>
+                <li><a class="menu">MySession</a> </li>
+                <li ><a href="/">Home</a></li>
+                <li><a href="/id<?=$self?>/session/">Session</a></li>
+		<li><a href="/">Group</a></li>
                 <li><a href="#">Schedule</a></li>
-                <li><a href="/files">Files</a></li>
+                <li><a href="/">Files</a></li>
               
               
               
@@ -78,14 +78,12 @@ $(document).ready(function()
 
 	<div class="submenu">
 			 <ul class="root ">
-           <div id="mygroup1"style="display: none"><?=$id_group?></div>
-              <li>
-              <? if($elder){?><a href="/elder/">Elder-Menu</a><?}?>
-              </li>
-                   <li><a href="/classmate<?=$self?>">My Profile</a></li>
-                   <li><a href="/updates">Updates</a></li>
+         
+            
+                   <li><a href="#">My Profile</a></li>
+                   <li><a href="#">Updates</a></li>
 		   <li><a href="/settings">Settings</a></li>
-		   <li> <a href="/exit">Logout</a></li>
+		   <li> <a href="/auth/out">Logout</a></li>
             </ul>
 	</div>
         

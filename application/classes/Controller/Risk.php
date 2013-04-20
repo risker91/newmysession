@@ -8,26 +8,12 @@ class Controller_Risk extends All {
 		 parent::before();
           if($this->auto_render)
                 {            
-                   $id_group=$this->request->param('group'); 
-                   $fac = ORM::factory('group',$id_group)->as_array();
-                   $auth =  Auth::instance();
-
-                  if (!$auth->logged_in()) 
-                   {
-                      $this->redirect('error/777');
-                   }
-                     if (($fac['public']==0) AND  ($id_group!=0))                             
-                                      {
-                                          if  ($session->get('mygroup')!=$id_group)
-                                            { 
-                                                if (!Auth::instance()->logged_in('admin'))
-                                                   { 
-                                                     $this->redirect('error/1');
-                                                   } 
-                                            }
-                                     } 
-               }
-         }
+ 
+              
+              
+              
+          }
+          }
              
     
     

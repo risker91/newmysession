@@ -5,8 +5,30 @@ class Controller_Session extends All {
   
 	public function action_index()
 	{
-                     $this->template->modul = View::factory('session-menu');
+            $sess = new Model_Session();
+           // var_dump($sess->loadSess($this->curr_uid));
+            $data['list']=$sess->loadSess($this->curr_uid);
+            $data['uid'] =$this->curr_uid;
+            $this->template->modul = View::factory('session-list',$data);
+                     
         }
+        
+        
+        public function action_create()
+	{
+            $session = new Model_Session();            
+            if(isset($_POST['create']))
+            {                
+                $title = Arr::get($_POST, 'session', '');     //Добавить валидацию!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!             
+                $session->createSess($this->uid,$title); 
+                $this->redirect('/id'.$this->curr_uid.'/session/');
+            }
+           // $session->createSess($this->uid);  
+            
+            $this->template->modul = View::factory('session-create');
+            
+        }
+        
         
         public function action_learning()
 	{
@@ -27,13 +49,7 @@ class Controller_Session extends All {
           //      $data['quest']= $sess->loadQuestion($ans_id);
                 $data['ans']= $sess->getOneAns($ans_id);
                 $data['quest']= $sess->getQuest($ans_id);
-                
-                
-                
-                     
-                     
-                     
-                     $this->template->modul = View::factory('session-answer',$data);
+                $this->template->modul = View::factory('session-answer',$data);
         }
         
         

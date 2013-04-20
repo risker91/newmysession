@@ -2,7 +2,7 @@
 <html>
   
   <head>
-    <title><? print $title ?></title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
       <link rel="stylesheet" href="/assets/css/divshot-util.css">
@@ -30,22 +30,7 @@
 
     <div class="container">
      
-      <div class="row main-features">
-        <div class="span6">
-          <div class="well">
-            <h1>Our news</h1>
-           <?  error_reporting(7)?>
-            <?=$news["news"];?>
-          </div>
-        </div>
-        <div class="span6">
-          <div class="well">
-            <h1>Need to know</h1>
-         <?=$news["news"]?>
-          </div>
-        </div>
-      </div>
-
+<?=$usrinfo?>
 
         
       <div class="row">

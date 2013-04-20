@@ -6,73 +6,74 @@ class Controller_Auth extends All
     public $template = 'vauth';
 
 
-
-
-    public function action_index()
+ public function action_index()
 	{
-          
-            
-            
-             $auth = Auth::instance();  
-             $req = Request::initial();           
-            
-                    if ($auth->logged_in())
-                    {
-                      //Request::factory('/', array('follow' => TRUE));
-                        $this->redirect('/');
+     $this->redirect('/');
+     
+        }
 
+    public function action_vk()
+	{
+        $uid  = Arr::get($_GET, 'uid', '');
+      //  print Session::instance()->get('uid');die;
+            if(Session::instance()->get('uid')<=0)
+              {
+                
+                        if(!$this->check_user($uid))
+                         {
+                          // $uid        = Arr::get($_GET, 'uid', '');
+                            $first_name = Arr::get($_GET, 'first_name', '');
+                            $last_name  = Arr::get($_GET, 'last_name', '');
+                            $photo      = Arr::get($_GET, 'photo', '');
+                            $photo_rec  = Arr::get($_GET, 'photo_rec', '');
+                            $hash       = Arr::get($_GET, 'hash', '');
+
+                            $app_id     = '3579300';
+                            $user_id    = $uid;
+                            $secret_key = '0R3zh9DtFJFVnAhpEvGw';
+
+
+                            $val = md5($app_id.$user_id.$secret_key);    
+                            if ($hash == $val) 
+                            {
+                                $user = new Model_User();
+                               $user->RegUser($uid, $first_name, $last_name, $photo, $photo_rec, $hash);
+
+                               Session::instance()->set('uid', $uid);
+                               $this->redirect('/id'.$uid);  // редирект на страницу его
+                            }
+                       
+
+
+                          }
+                           else
+                           {
+                               Session::instance()->set('uid',$uid );
+                               $this->redirect('/id'.$uid);//редирект на его страницу 
+                           }
+                        
                     }
-            
-           if (isset($_POST['auth_on']))
-           {  
-              
-              $login = Arr::get($_POST, 'login', '');
-              $pass = Arr::get($_POST, 'pass', '');
-          
-                        if ($auth->login($login,$pass))
-                        {              
-                            $classmate= new Model_MyUser();
-                            $session = Session::instance();
-                            
-                            $info=$classmate->GetUserInfo($login);
-                                        
-                                          foreach ($info as $v)
-                                        {
-
-                                            $session->set('mygroup',$v->classmates->group_id);
-                                            $session->set('classid', $v->classmates->id);
-
-                                        }
-                              //  Request::initial()->redirect('/group'.$session->get('mygroup'));
-                               // Request::factory('/group'.$session->get('mygroup'), array('follow' => TRUE));;
-                                        $this->redirect('/group'.$session->get('mygroup'));
-                           
-  //print 'джигурда'; die;
-                        }
-                        else
-                        {
-                          
-
-                        }
-      
+ else { $this->redirect('/id'.$uid);}
+            //
          
-          }
-        
-              $this->template->modul = View::factory('vauth');;
         }
         
         
+        
+        private function check_user($uid)
+              {
+                  $usr = ORM::factory('user',$uid)->as_array();
+
+
+                  if($usr['id']!='') return TRUE; else return FALSE;
+
+              }
         
      public function action_out()
-	{   $req = Request::initial();            
-            $auth = Auth::instance();              
-            $auth->logout();
-            Session::instance()->set('mygroup',0);
-            
-           $this->redirect('/');
-           
-            
-        }
+          {   
+          Session::instance()->set('uid',0);
+          $this->redirect('/');
+          }
         
         
      
