@@ -1,10 +1,12 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 class All extends Controller_Template {
-      public $template = 'main';      
+      public $template = 'basic';      
       public $time;
       public $uid;
       public $curr_uid;
+      public $curr_sess;
+      public $sess_info;
 
 
       public function before()
@@ -19,7 +21,14 @@ class All extends Controller_Template {
 		 parent::before();
          if($this->auto_render)
           {
+             $usr = new Model_User();
+             
+             $this->template->self = $this->uid;
+             $slf['usr'] =  $usr->getUser($this->uid);
+             $this->template->self_menu = View::factory('self-menu',$slf); //$data
              $this->template->modul = '';
+             $this->template->usrinfo = '';
+             //$this->template->auth = View::factory('form-auth');
              $session=  Session::instance();
              
              if ($session->get('uid')=='')
@@ -27,25 +36,18 @@ class All extends Controller_Template {
                  $session->set('uid', 0);                 
                  }
                  
-             if($this->uid > 0) 
-                 
-                {
-                   $usr = new Model_User();
+             
+                   
                       
-                   $data['usr']=$usr->getUser($this->curr_uid);
+                   $data['usr']=$usr->getUser($this->curr_uid);                   
+                   $prof['curr_uid'] = $this->curr_uid;
+                   $prof['usr'] = $data['usr'];
+                   $this->template->profilemenu= View::factory('profile-menu',$prof);
                    
-                   $prof['uid'] = $this->curr_uid;
-                   if ($this->curr_uid==$this->uid) $prof['is_self'] = TRUE; else $prof['is_self'] = FALSE;
-                   $data['profilemenu']= View::factory('profile-menu',$prof);
-                   
-                   $this->template->usrinfo = View::factory('usr-info',$data);
-                   $mas['self'] = $this->uid;
-                   $this->template->topmenu = View::factory('topmenu',$mas);                  
-                }
-                else 
-                {
-                    $this->template->auth = View::factory('form-auth');
-                }
+                
+                   $this->template->usrinfo = View::factory('user-info',$data);
+                            
+                
              
          }
        }       

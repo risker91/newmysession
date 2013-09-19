@@ -127,7 +127,7 @@ Kohana::modules(array(
  * defaults for the URI.
  */
 
- Route::set('страница','id<id>(/<controller>(/<action>))',  array('id'=>'\d+'))   //Это нужно чтобы в айди попадали только цифры  array('id'=>'\d+')
+ Route::set('страница','id<id>(/<controller>(/<action>(/<pr>)))',  array('id'=>'\d+'))   //Это нужно чтобы в айди попадали только цифры  array('id'=>'\d+')
               
                 ->defaults(array(
                        'controller'  =>'profile', 

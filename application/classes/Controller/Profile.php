@@ -7,9 +7,9 @@ class Controller_Profile extends All
          if($this->uid <= 0) $this->redirect('/');
          $usr = new Model_User();
          $uid = $this->request->param('id');         
-        $data['usr']=$usr->getUser($uid);
+         $data['usr']=$usr->getUser($uid);
          
-
+         $this->template->modul = View::factory('wall');
          
         }
     

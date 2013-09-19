@@ -241,3 +241,33 @@
 #7 Z:\home\localhost\newmysession\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
 #8 Z:\home\localhost\newmysession\index.php(124): Kohana_Request->execute()
 #9 {main} in Z:\home\localhost\newmysession\modules\database\classes\Kohana\Database\Query.php:251
+2013-04-17 21:22:33 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: sess_id ~ APPPATH\classes\Controller\session.php [ 91 ] in Z:\home\localhost\newmysession\application\classes\Controller\session.php:91
+2013-04-17 21:22:33 --- DEBUG: #0 Z:\home\localhost\newmysession\application\classes\Controller\session.php(91): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 91, Array)
+#1 Z:\home\localhost\newmysession\system\classes\Kohana\Controller.php(84): Controller_Session->action_additem()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\newmysession\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Session))
+#4 Z:\home\localhost\newmysession\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\newmysession\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\newmysession\index.php(124): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\newmysession\application\classes\Controller\session.php:91
+2013-04-17 23:14:46 --- CRITICAL: ErrorException [ 8 ]: Undefined property: Controller_Elder::$id_group ~ APPPATH\classes\Controller\Elder.php [ 192 ] in Z:\home\localhost\newmysession\application\classes\Controller\Elder.php:192
+2013-04-17 23:14:46 --- DEBUG: #0 Z:\home\localhost\newmysession\application\classes\Controller\Elder.php(192): Kohana_Core::error_handler(8, 'Undefined prope...', 'Z:\home\localho...', 192, Array)
+#1 Z:\home\localhost\newmysession\system\classes\Kohana\Controller.php(84): Controller_Elder->action_AddResults()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\newmysession\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Elder))
+#4 Z:\home\localhost\newmysession\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\newmysession\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\newmysession\index.php(124): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\newmysession\application\classes\Controller\Elder.php:192
+2013-04-17 23:19:30 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: auth ~ APPPATH\views\welcome.php [ 64 ] in Z:\home\localhost\newmysession\application\views\welcome.php:64
+2013-04-17 23:19:30 --- DEBUG: #0 Z:\home\localhost\newmysession\application\views\welcome.php(64): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 64, Array)
+#1 Z:\home\localhost\newmysession\system\classes\Kohana\View.php(61): include('Z:\home\localho...')
+#2 Z:\home\localhost\newmysession\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\localho...', Array)
+#3 Z:\home\localhost\newmysession\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\localhost\newmysession\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\newmysession\system\classes\Kohana\Request\Client\Internal.php(105): ReflectionMethod->invoke(Object(Controller_Welcome))
+#7 Z:\home\localhost\newmysession\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\newmysession\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\newmysession\index.php(124): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\newmysession\application\views\welcome.php:64

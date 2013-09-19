@@ -3,25 +3,34 @@
 class Controller_Auth extends All
 {
 
-    public $template = 'vauth';
-
-
  public function action_index()
 	{
      $this->redirect('/');
      
         }
+        
+        public function action_app()
+	{
+          $uid   = Arr::get($_POST, 'login', '');
+          $pass  = Arr::get($_POST, 'pass', '');
+          
+          $ntu = new Model_Testuser();
+          $ntu->AddUser($login, $pass);
+          die;
+            
+        }
+        
 
     public function action_vk()
 	{
         $uid  = Arr::get($_GET, 'uid', '');
-      //  print Session::instance()->get('uid');die;
+
             if(Session::instance()->get('uid')<=0)
               {
                 
                         if(!$this->check_user($uid))
                          {
-                          // $uid        = Arr::get($_GET, 'uid', '');
+                         
                             $first_name = Arr::get($_GET, 'first_name', '');
                             $last_name  = Arr::get($_GET, 'last_name', '');
                             $photo      = Arr::get($_GET, 'photo', '');
@@ -40,7 +49,7 @@ class Controller_Auth extends All
                                $user->RegUser($uid, $first_name, $last_name, $photo, $photo_rec, $hash);
 
                                Session::instance()->set('uid', $uid);
-                               $this->redirect('/id'.$uid);  // редирект на страницу его
+                               $this->redirect('/id'.$uid);  /** редирект на страницу его*/
                             }
                        
 
@@ -49,12 +58,12 @@ class Controller_Auth extends All
                            else
                            {
                                Session::instance()->set('uid',$uid );
-                               $this->redirect('/id'.$uid);//редирект на его страницу 
+                               $this->redirect('/id'.$uid);
                            }
                         
                     }
  else { $this->redirect('/id'.$uid);}
-            //
+           
          
         }
         

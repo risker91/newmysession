@@ -17,6 +17,7 @@ class Model_User extends ORM
     }
     
     
+    
     public function getUser($uid)
         {
             return ORM::factory('user',$uid)->as_array();           
